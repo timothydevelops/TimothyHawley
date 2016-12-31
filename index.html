@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+        <title>Hawley Designs</title>
+    <!-- Bootstrap core CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--Main Styling CSS-->
+      <link href="css/style.css" rel="stylesheet">
+    <!--googlefont-->
+      <link href="https://fonts.google.com/?query=lato&selection.family=Lato" rel="stylesheet">
+
+
+      <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script>
+      jQuery(document).ready(function(){
+	          var portfolioTopPosition = jQuery('#portfolio').offset().top;
+	          jQuery('#scroll').click(function(){
+		        jQuery('html, body').animate({scrollTop:portfolioTopPosition}, 'slow');
+		        return false;
+	         });
+           });
+      jQuery(document).ready(function(){
+            var aboutTopPosition = jQuery('#about').offset().top;
+            jQuery('#scroll2').click(function(){
+            jQuery('html, body').animate({scrollTop:aboutTopPosition}, 'slow');
+            return false;
+          });
+          });
+          jQuery(document).ready(function(){
+                var portfolioTopPosition = jQuery('#portfolio').offset().top;
+                jQuery('#scroll3').click(function(){
+                jQuery('html, body').animate({scrollTop:portfolioTopPosition}, 'slow');
+                return false;
+              });
+              });
+      </script>
+  </head>
+  <body>
+<!-- navbar -->
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand"><img src="images/hd-logo-grey.jpg" height="30px" width="120px"></a>
+        </div>
+        <div>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#portfolio" id="scroll">Portfolio</a></li>
+            <li><a href="#about" id="scroll2">About</a></li>
+            <li><a href="mailto:timothydevelop@gmail.com">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- header -->
+    <div class="header">
+        <h1>HAWLEY DESIGNS</h1>
+        <p><a class="btn btn-default" href="#portfolio" id="scroll3" style="font-size: 14px;">My Work</a></p>
+      </div>
+<!-- /intro -->
+<!--Portfolio-->
+<div class="portfolio" id="portfolio" alt="portfolio">
+  <div class="row">
+      <div class="col-md-12">
+        <h1 id="portf">Portfolio</h1>
+      </div>
+  </div>
+    <div class="row">
+      <div class="col-md-3">
+        <a href="broadway/index.html" target="_blank"><img src="images/broadwaythumb.jpg" class="img-responsive"></a>
+      </div>
+      <div class="col-md-3">
+        <a href="innovation/index.html" target="_blank"><img src="images/innovationthumb.jpg" class="img-responsive"></a>
+      </div>
+      <div class="col-md-3">
+        <a href="../Martins2/index.html" target="_blank"><img src="images/martinsthumb.jpg" class="img-responsive"></a>
+      </div>
+      <div class="col-md-3">
+        <a href="redeye/index.html" target="_blank"><img src="images/redeyethumb.jpg" class="img-responsive"></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <a href="junction/index.html" target="_blank"><img src="images/junctionthumb.jpg" class="img-responsive"></a>
+      </div>
+      <div class="col-md-3">
+      <a href="headlines/index.html" target="_blank">  <img src="images/headlinesthumb.jpg" class="img-responsive"></a>
+      </div>
+      <div class="col-md-3">
+      <a href="adoptly/index.html" target="_blank">  <img src="images/adoptlythumb.jpg" class="img-responsive"></a>
+      </div>
+      <div class="col-md-3">
+      <a href="bestbite/index.html" target="_blank">  <img src="images/bestbitethumb.jpg" class="img-responsive"></a>
+      </div>
+    </div>
+</div>
+<!--about-->
+<div class="about" id="about">
+  <div class="container">
+    <div class="">
+    <h2 class="right">THE MAN BEHIND THE MACHINE</h2>
+    <p class="right">Hello, World! My name is Timothy Hawley, and I'm a Web Developer living in Northern Colorado and i enjoy making beautiful, responsive websites.</p>
+
+      <!--Comparison row-->
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="right">
+          LIKES</h2>
+        <ul class="right">
+          <li>Coffee.</li>
+          <li>Rain storms.</li>
+          <li>When my code works!</li>
+          <li>Family, they make my life complete.</li>
+          <li>Video games, who doesn't like video games?</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h2 class="left">
+          DISLIKES</h2>
+        <ul class="left">
+          <li>Politics.</li>
+          <li>Internet Explorer.</li>
+          <li>When my code doesn't work.</li>
+          <li>When people rush, it ruins creativity.</li>
+          <li>Traffic, who likes being stuck in traffic?</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <!--Progress Indicators-->
+            <div class="progress" style="height: 30px; border: 1px solid #bdc3c7; border-radius: 0px;">
+              <div class="bar" style="width: 90%; background-color: #444444; color:#FFF;height: 30px; padding: 3px;"><span style="font-size: 16px;">HTML 90%</span></div>
+              <p>90%</p>
+            </div>
+            <div class="progress" style="height: 30px; border: 1px solid #bdc3c7; border-radius: 0px;">
+              <div class="bar" style="width: 80%; background-color: #444444; color:#FFF;height: 30px; padding: 3px;"><span style="font-size: 16px;">CSS 80%</span></div>
+            </div>
+            <div class="progress" style="height: 30px; border: 1px solid #bdc3c7; border-radius: 0px;">
+              <div class="bar" style="width: 35%; background-color: #444444; color:#FFF;height: 30px; padding: 3px;"><span style="font-size: 16px;">jQuery 35%</span></div>
+            </div>
+            <div class="progress" style="height: 30px; border: 1px solid #bdc3c7; border-radius: 0px;">
+              <div class="bar" style="width: 30%; background-color: #444444; color:#FFF;height: 30px; padding: 3px;"><span style="font-size: 16px;">GitHub 30%</span></div>
+            </div>
+            <div class="progress" style="height: 30px; border: 1px solid #bdc3c7; border-radius: 0px;">
+              <div class="bar" style="width: 25%; background-color: #444444; color:#FFF;height: 30px; padding: 3px;"><span style="font-size: 16px;">Photoshop 20%</span></div>
+            </div>
+      </div>
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-4">
+        <h2 class="center">BE MY FRIEND</h2>
+
+        <a href="https://www.facebook.com/timmy.hawley.5" alt="Facebook" target="_blank"><img src="images/facebook.svg" width="68px" height="68px"></a>
+        <a href="https://www.instagram.com/timmytimmytimmy/"alt="Instagram" target="_blank"><img src="images/instagram.svg" width="68px" height="68px"></a>
+        <a href="https://www.linkedin.com/in/timothy-hawley-55069412a" alt="LinkedIn" target="_blank"><img src="images/linkedin.svg" width="68px" height="68px"></a>
+        <a href="https://open.spotify.com/user/thawley27" alt="Spotify" target="_blank"><img src="images/spotify.svg" width="68px" height="68px"></a>
+        <a href="https://github.com/timothydevelops" alt="GitHub" target="_blank"><img src="images/github.svg" width="68px" height="68px"></a>
+
+    </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>
